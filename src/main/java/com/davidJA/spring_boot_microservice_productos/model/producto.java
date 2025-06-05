@@ -3,9 +3,11 @@ package com.davidJA.spring_boot_microservice_productos.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+/*Marca una clase Java como una entidad que se mapea a una tabla en la base de datos.*/
 @Entity
+/*LOMBOK*/
 @Data
-@Table(name= "producto")
+@Table(name = "producto")
 public class producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
